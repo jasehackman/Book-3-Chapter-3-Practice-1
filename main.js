@@ -5,5 +5,7 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
     console.log("Chicken") 
   } else if (currentNumber % 7 === 0) {
     console.log("Monkey") 
+  } else {
+    console.log(currentNumber);
   }
 }
